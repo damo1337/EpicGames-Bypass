@@ -5,6 +5,7 @@ $ "-epicapp=Fortnite -epicenv=Prod -epiclocale=en-us -epicportal -noeac -fromfl=
 $ Just add this to your DLL or launcher :)
 ```
 EXAMPLE:
+```
 	public static Process StartProcess(string path, bool shouldFreeze, string extraArgs = "")
 		{
 			Process process = new Process
@@ -26,3 +27,4 @@ EXAMPLE:
 			}
 			return process;
 		}
+```
